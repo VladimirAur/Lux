@@ -323,7 +323,7 @@ body{
 .service_type{	
 	width: 90%;		
 	margin: 0 auto 1rem auto;
-	background: linear-gradient( rgba(128, 128, 128, 0.1), rgba(128, 128, 128, 0.1) );	
+	background: linear-gradient( rgba(128, 128, 128, 0.2), rgba(128, 128, 128, 0.2) );	
     border: 15px solid rgba(255, 255, 255, 0.15);
     border-radius: 10px;    
 }
@@ -547,6 +547,7 @@ body{
 	overflow: hidden;		
 }
 .contact_form-input{
+	font-size: 1.6rem;
 	width: 100%;
 	height: 100%;
 	padding-top: 1.5rem;
@@ -570,7 +571,7 @@ body{
 	content: "";
 	position: absolute;
 	left: 0;
-	bottom: -2px;
+	bottom: -1px;
 	height: 100%;
 	width: 100%;
 	border-bottom: 2px solid #4bcaff;
@@ -582,7 +583,7 @@ body{
 	position: absolute;
 	left: 0;
 	bottom: 5px;
-	transition: all 0.3s ease;
+	transition: all 0.5s ease;
 }
 .contact_form-input:focus + .contact_form-label .label-name, 
 .contact_form-input:valid + .contact_form-label .label-name{
@@ -683,7 +684,7 @@ section {
 	padding-top: 0;
 }
 .service_type{	
-	margin-bottom: 2px;
+	margin-bottom: 0.5rem;
 }
 .service_type-caption{
 	margin-left: 1rem;
